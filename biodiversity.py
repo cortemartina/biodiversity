@@ -106,3 +106,39 @@ for i, park in enumerate(parks):
 
 plt.tight_layout()
 plt.show()
+
+# Conclusions
+# Through this analysis of biodiversity data from U.S. National Parks, we explored species distribution, 
+# conservation status, and observation patterns across several parks. The key findings are:
+
+# Species Under Protection:
+# The majority of species in the dataset are classified as "Species of Concern", 
+# meaning they are being monitored but not yet threatened.
+# Endangered and Threatened species are significantly fewer, which suggests that most species 
+# are not currently in critical danger but still require attention.
+# The "In Recovery" category had the lowest counts, showing that while some conservation efforts are succeeding, 
+# these cases remain rare.
+
+# Species Categories and Risk:
+# Mammals and Birds have the highest counts of endangered species, indicating that these groups 
+# are especially vulnerable.
+# Plants (both vascular and nonvascular) generally fall under "Species of Concern" 
+# but are not frequently listed as endangered, possibly reflecting different conservation dynamics.
+
+# Top Observed Species by Park:
+# Across the four parks analyzed, certain species show consistently higher observation counts.
+# However, observation counts for the top five species in each park are relatively close, 
+# making it difficult to distinguish significant differences without adjusting visualizations 
+# (like broken axes or logarithmic scales).
+# Yellowstone showed higher observation numbers overall, possibly due to its larger area or higher visitor counts.
+
+# Visual Representation Challenge:
+# The species observation differences were subtle and required thoughtful plotting 
+# (e.g., broken axes or zoomed-in views) to highlight trends.
+# This highlights the importance of appropriate data visualization methods 
+# when working with values of similar magnitudes.
+
+# General Insights:
+# Continuous monitoring of species is essential to anticipate changes in conservation status.
+# Mammals and birds may need focused conservation strategies due to their higher endangered counts.
+# Data visualization plays a critical role in uncovering hidden patterns and making data-driven decisions.
